@@ -267,12 +267,12 @@ button{
   margin: 30px 0;
   cursor: pointer;
   transition: 0.25s;
+  border: solid #131286 3px;
 }
 
 button:hover{
   background-color: #FFFFFF;
   color: #131286;
-  border: solid #131286 2px;
 }
 
 /* -----------------------------------------------------> Rodapé */
