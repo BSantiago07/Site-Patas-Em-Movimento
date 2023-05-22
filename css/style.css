@@ -18,6 +18,14 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+body::-webkit-scrollbar {
+    width: 12px
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--azul-escuro);
+}
+
 .menu a{
   padding: 16px;
   color: var(--branco);
