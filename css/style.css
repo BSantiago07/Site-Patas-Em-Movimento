@@ -275,6 +275,8 @@ button:hover{
   color: #131286;
 }
 
+
+
 /* -----------------------------------------------------> Rodapé */
 
 footer{
@@ -359,6 +361,7 @@ footer{
 
   .linha, .img-box{
     width: 100%;
+    gap: 5px;
   }
 
   .texto{
