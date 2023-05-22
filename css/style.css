@@ -35,7 +35,7 @@ h1{
 /* -----------------------------------------------------> Menu */
 
 header{
-  height: 90px;
+  height: 80px;
   background-color: var(--azul-escuro);
   display: flex;
   justify-content: space-between;
@@ -44,7 +44,7 @@ header{
 
 header img{
   height: 100%;
-  width: 190px;
+  width: 180px;
   padding-left: 50px;
 }
 
@@ -55,7 +55,7 @@ header img{
 .menu a:last-child{
   background-color: var(--branco);
   border-radius: 5px;
-  color: var(--azul-01);
+  color: var(--azul-escuro);
   font-weight: bold;
   border-bottom: 0;
   transition: 0.25s;
@@ -176,18 +176,18 @@ main .carousel {
 }
 
 .texto{
-  max-width: 650px;
+  max-width: 640px;
   text-align: justify;
 }
 
 p{
-  text-indent: 30px;
+  text-indent: 32px;
   line-height: 1.5;
 }
 
 .conteudo img{
   max-width: 90%;
-  margin: 30px;
+  margin: 40px;
 }
 
 .conteudo img:hover{
@@ -211,7 +211,7 @@ p{
 }
 
 .linha, .img-box{
-  width: 500px;
+  width: 400px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -230,13 +230,13 @@ button {
 }
 
 .divisoria{
-  height: 300px;
+  height: 320px;
   border: #D6E5F1 2px solid;
   border-radius: 0 8px;
 }
 
 .box-somos{
-  margin-top: 150px;
+  margin-top: 160px;
 }
 
 .img-box a:hover img {
@@ -256,34 +256,34 @@ button {
 }
 
 button{
-  padding: 20px 40px;
-  background-color: #131286;
-  color: #FFFFFF;
+  padding: 16px 40px;
+  background-color: var(--azul-escuro);
+  color: var(--branco);
   font-weight: bold;
   border: none;
-  border-radius: 10px;
+  border-radius: 8px;
   font-size: 16px;
-  margin: 30px 0;
+  margin: 32px 0;
   cursor: pointer;
   transition: 0.25s;
-  border: solid #131286 3px;
+  border: solid var(--azul-escuro) 3px;
 }
 
 button:hover{
-  background-color: #FFFFFF;
-  color: #131286;
+  background-color: var(--branco);
+  color: var(--azul-escuro);
 }
 
 .titulo-somos .titulo#contribua{
-  margin-bottom: 25px;
+  margin-bottom: 24px;
 }
 
 /* -----------------------------------------------------> Rodapé */
 
 footer{
-  height: 90px;
-  background-color: #131286;
-  color: #FFFFFF;
+  height: 80px;
+  background-color: var(--azul-escuro);
+  color: var(--branco);
   font-weight: bold;
   display: flex;
   justify-content: center;
@@ -299,12 +299,12 @@ footer{
   }
 
   header img{
-    padding: 30px;
+    padding: 32px;
   }
 
   button{
-    padding: 10px 20px;
-    margin: 15px 0;
+    padding: 16px 24px;
+    margin: 16px 0;
   }
 
   .circulos-container{
@@ -322,7 +322,7 @@ footer{
   }
 
   .conteudo img{
-    margin: 10px;
+    margin: 16px;
   }
 
   .box-sobre .conteudo{
@@ -377,10 +377,10 @@ footer{
   }
 
   .box-impactos{
-    margin: 20px 0 0 0;
+    margin: 16px 0 0 0;
   }
 
   .box-ong-patroc #linha02{
-    margin-top: 50px;
+    margin-top: 40px;
   }
 }
