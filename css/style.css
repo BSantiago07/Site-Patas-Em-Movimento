@@ -23,7 +23,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: var(--azul-escuro);
+    background-color: var(--azul-claro);
 }
 
 .menu a{
