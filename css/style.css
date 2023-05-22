@@ -211,7 +211,7 @@ p{
 }
 
 .linha, .img-box{
-  width: 400px;
+  width: 480px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
