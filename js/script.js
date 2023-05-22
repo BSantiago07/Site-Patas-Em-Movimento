@@ -63,5 +63,14 @@ function copyToClipboard() {
   document.execCommand('copy');
 
   document.body.removeChild(tempTextarea);
+  
+    Swal.fire({
+    position: 'center',
+    icon: 'success',
+    iconColor: '#131286',
+    title: 'Copiado!',
+    showConfirmButton: false,
+    timer: 1500
+  })
 }
 
