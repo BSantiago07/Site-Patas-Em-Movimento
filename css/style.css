@@ -318,7 +318,7 @@ footer{
   .conteudo{
     flex-direction: column;
     justify-content: space-around;
-    padding: 20px 40px;
+    padding: 16px 32px;
   }
 
   .conteudo img{
@@ -336,7 +336,7 @@ footer{
 
   .titulo{
     font-size: 24px;
-    margin: 10px 0;
+    margin: 16px 0;
   }
 
   .linha .titulo-box{
@@ -353,7 +353,7 @@ footer{
   }
 
   .box-somos{
-    margin-top: 50px;
+    margin-top: 40px;
   }
 
   .img-box{
